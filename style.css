@@ -1,0 +1,71 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-image: linear-gradient(to right, #ff0000, #000000);
+}
+
+h1 {
+    text-align: center;
+}
+
+legend{
+    border: 1px solid rgb(153, 241, 45 );
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(153, 241, 45);
+    border-radius: 8px;
+}
+
+fieldset{
+    border: 3px solid rgb(153, 241, 45);
+}
+
+.box{
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 60px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #f1f5f4;
+    color: #0c0101;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #f4f8f2;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
